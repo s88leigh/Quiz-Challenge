@@ -1,0 +1,15 @@
+#title {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#question-box {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid black;
+}
