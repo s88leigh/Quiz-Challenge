@@ -81,7 +81,7 @@ function clickButton() {
         alert("Correct");
         questIndex++;
         counter = counter + 1;
-        alert ("yay, you've got  "  + counter+"/ 5" + "right!");
+        alert ("yay, you've got  "  + counter+"/ 5" +);
         questionText();
       
     } else {

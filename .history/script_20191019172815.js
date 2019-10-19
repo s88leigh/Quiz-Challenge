@@ -80,14 +80,13 @@ function clickButton() {
     if(choice === questions[questIndex].answer){
         alert("Correct");
         questIndex++;
-        counter = counter + 1;
-        alert ("yay, you've got  "  + counter+"/ 5" + "right!");
+        counter = counter + 1
         questionText();
       
     } else {
         alert("Incorrect. Try again!")
         
-       questionText();
+    //    questionText();
     }
    
 }
