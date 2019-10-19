@@ -32,8 +32,6 @@ var questions = [
         answer: "return"
     }
 ];
-
-var p = document.createElement('p')
  
 var counter = 0;
 var questIndex = 0;
@@ -84,7 +82,7 @@ function clickButton() {
         questIndex++;
         counter = counter + 1;
         alert ("yay, you've got  "  + counter+"/ 5" + "right!");
-        p.innerHTML('yay right: ' + counter+ '/ 5');
+        
         questionText();
       
     } else {

@@ -32,7 +32,6 @@ var questions = [
         answer: "return"
     }
 ];
-
 var p = document.createElement('p')
  
 var counter = 0;

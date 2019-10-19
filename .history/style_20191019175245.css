@@ -1,14 +1,11 @@
-#score-box {
-  width: 100px;
+#score box {
+  width: 50px;
   height: 30px;
   padding: 20px;
   margin: auto;
-  position: absolute;
+  position: fixed;
     left: 0;
-    top: 0;
-  border: 2px solid black;
-  text-align: center, top;
- 
+    up: 0
 }
 
 #title {
@@ -27,14 +24,3 @@
     border: 2px solid black;
 }
 
-#timer-box {
-  width: 100px;
-  height: 30px;
-  padding: 20px;
-  margin: auto;
-  position: absolute;
-    right: 0;
-    top: 0;
-  border: 2px solid black;
- 
-}
