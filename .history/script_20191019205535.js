@@ -28,8 +28,8 @@ var questions = [
     },
     {
         questionText: "What is the first child of an HTML element?",
-        choices: ["head", "body", "div", "footer"],
-        answer: "head"
+        choices: ["Option 1", "Option 2", "Option3", "He"],
+        answer: "Head"
     }
 ];
 

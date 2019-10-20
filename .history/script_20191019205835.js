@@ -7,7 +7,7 @@ var answersDiv = document.getElementById("answers");
 
 var questions = [
     {
-        questionText: "What programming language is used to style a webpage?",
+        questionText: "QestWhat programming language is used to style a webpage?",
         choices: ["HTML", "css", "Javascript", "C++"],
         answer: "css"
     },

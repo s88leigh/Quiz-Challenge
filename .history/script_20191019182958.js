@@ -8,28 +8,28 @@ var answersDiv = document.getElementById("answers");
 var questions = [
     {
         questionText: "What programming language is used to style a webpage?",
-        choices: ["HTML", "css", "Javascript", "C++"],
+        choices: ["Option 1", "css", "Option3", "Option4"],
         answer: "css"
     },
     {
         questionText: "Which one is a DOM element?",
-        choices: ["Attribute", "String", "addEventListener", "Number"],
+        choices: ["Option 1", "Option 2", "addEventListener", "Option4"],
         answer: "addEventListener"
     },
     {
         questionText: "Which is a DOM attribute?",
-        choices: ["value", "onClick", "Children", "Class"],
+        choices: ["value", "Option 2", "Option3", "Option4"],
         answer: "value"
     },
     {
-        questionText: "What is the standard markup language for web pages?",
-        choices: ["Python", "JAVA", "C++", "HTML"],
-        answer: "HTML"
+        questionText: "What are the inputs of a function called?",
+        choices: ["Option 1", "Option 2", "Option3", "parameters"],
+        answer: "parameters"
     },
     {
-        questionText: "What is the first child of an HTML element?",
-        choices: ["head", "body", "div", "footer"],
-        answer: "head"
+        questionText: "What is the output of a function called?",
+        choices: ["Option 1", "Option 2", "Option3", "parameters"],
+        answer: "return"
     }
 ];
 
@@ -82,22 +82,20 @@ function clickButton() {
 
     if(choice === questions[questIndex].answer){
         alert("Correct");
-        questIndex++;
+        // questIndex++;
         counter = counter + 1;
-        alert ("yay, you've got  "  + counter+"/ 5" + "right!");
-        
+        // alert ("yay, you've got  "  + counter+"/ 5" + "right!");
+        p.innerHTML('yay right: ' + counter+ '/ 5');
         questionText();
       
     } else {
-        alert("Incorrect!")
-        questIndex++; 
-        questionText();
+        alert("Incorrect. Try again!")
+        
+       questionText();
     }
    
 }
-
-questionText() 
-
+questionText()
 
 
 

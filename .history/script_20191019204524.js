@@ -22,14 +22,14 @@ var questions = [
         answer: "value"
     },
     {
-        questionText: "What is the standard markup language for web pages?",
-        choices: ["Python", "JAVA", "C++", "HTML"],
-        answer: "HTML"
+        questionText: "What is the standard Mmarkup language?",
+        choices: ["result", "objects", "", "parameters"],
+        answer: "parameters"
     },
     {
-        questionText: "What is the first child of an HTML element?",
-        choices: ["head", "body", "div", "footer"],
-        answer: "head"
+        questionText: "What is the output of a function called?",
+        choices: ["Option 1", "Option 2", "Option3", "parameters"],
+        answer: "return"
     }
 ];
 

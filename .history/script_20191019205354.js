@@ -27,9 +27,9 @@ var questions = [
         answer: "HTML"
     },
     {
-        questionText: "What is the first child of an HTML element?",
-        choices: ["head", "body", "div", "footer"],
-        answer: "head"
+        questionText: "What is the first child of an THML?",
+        choices: ["Option 1", "Option 2", "Option3", "parameters"],
+        answer: "return"
     }
 ];
 
